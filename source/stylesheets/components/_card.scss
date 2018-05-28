@@ -1,0 +1,42 @@
+.card {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.card-user {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 10px;
+  right: 10px;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-description h3 {
+  font-size: 1.6em;
+}
+
+.card-description p {
+  font-size: 0.8em;
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

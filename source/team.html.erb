@@ -1,0 +1,16 @@
+---
+title: Le Wagon - Middleman - Team
+---
+
+<div class="wrapper-white">
+  <div class="container">
+    <ul class="teamlist list-inline text-center">
+      <% ["greggstyle", "yhlee123", "thevtm", "DavidRss"].each do |gh_username| %>
+        <li>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+          <h3><%= gh_username.upcase %></h3>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
